@@ -29,7 +29,7 @@ function startAnimate() {
   myFishElement.style.transform = "scale(.95)";
   const div = document.createElement("div");
   div.classList.add("subtitleCountTip");
-  div.innerText = "功德 + 1，佛祖保佑你";
+  div.innerText = "功德 + 1，中彩票！中彩票！";
   centerElement.appendChild(div);
   setTimeout(() => {
     div.remove();
